@@ -5,7 +5,6 @@ import org.json.simple.JSONObject;
 import net.nurigo.java_sdk.api.Message;
 import net.nurigo.java_sdk.exceptions.CoolsmsException;
 
-
 public class SmsSend {
 	static void 문자전송(String phone, String message) {
 		String api_key = "NCS8Y6RGQTUTOIGI";
@@ -33,7 +32,4 @@ public class SmsSend {
 	    }
 	}
 	
-  public static void main(String[] args) {
-	  
-  }
 }
